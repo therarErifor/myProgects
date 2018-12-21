@@ -1,0 +1,269 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+body{
+	padding:0;
+	background: url(images/26.jpg);
+}	
+
+#conteiner{
+	width: 100%;
+	height:100%;
+	margin: 0;
+
+}
+#head{
+	margin: 5px auto;
+	width: 80%;
+	height: 130px;
+	background-image: url(images/head.jpg);
+	background-size: 100% 140%;
+	box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.5);
+}
+#info{
+	display:inline-block;
+	border:none;
+	margin-top: 2%;
+	margin-right: 6%; 
+	width:30%;height:80px; 
+	background-color: none; 
+	float:right;
+}
+#info strong{
+	color:white;
+}
+
+
+#lang{
+	display:block;
+	padding-top: 20px;
+	float:left;
+}
+#kontact{
+	display: block;
+	padding: 13px;
+
+	float:right;
+}
+#logo img{
+	display: inline-block;
+	float:left;
+	width:48%;
+	height:80px;
+	padding: 20px;
+}
+#menu{
+	display: block;
+	margin: 5px auto;
+	width: 80%;
+	height: 40px;
+	background-color: #ff0000;
+}
+
+.button{
+	display: inline-block;
+	background-color: #ff0000; 
+	border: 0px #73d742;
+	padding: 5px 5px;
+	margin:auto 5px; 
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	height: 100%;
+	text-align: center;
+	cursor: pointer;
+}
+.button:hover {
+background-color:#E51C20;
+}
+
+.button:active{
+background-color:#ff0000;
+}
+#content{
+	display: block;
+	margin: 0px auto;
+	width: 80%;
+	height: auto;
+	border:0px solid #808080;
+	background-color: #e6e6e6;
+	box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.5);
+}
+#gallery{
+	width: 100%;
+	height: auto;
+	margin: 5px auto 0;
+	
+}
+#gallery p{
+	text-align:center;
+	font-size: 15pt;
+	font-family: Open Sans;;
+}
+#gallery img{
+	/*transform:scale(0.8);*/ 
+	transition-duration: 0.5s; 
+	margin:  0 10px 5px 0; /*Интервалы между изображениями*/
+	border: 1px solid #ccc;
+	width: 20%;
+	height: 100px;
+	margin-top: 0;
+
+}
+#gallery img:hover{
+	transform:scale(1.9); /*Webkit: увеличиваем размер до 1.2x*/
+	box-shadow:0px 0px 30px gray; /*CSS3 тени: 30px размытая тень вокруг всего изображения*/
+	/*opacity: 1;*/
+}
+
+#block1{
+	overflow:auto;
+	display: inline-block;	
+	width: 15%;
+	height: 240px;
+	margin:5px 0;
+	margin-left:10%;
+	
+	background-color:#e6e6e6;
+	float:left;
+	box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.5);
+}
+#block1-text{
+	padding: 8px;
+}
+#block1 p{
+	text-align:justify;
+	font-size: 15pt;
+	font-family: Open Sans;
+	padding:5px;
+}
+
+#block2{
+	display: inline-block;	
+	width: 32.5%;
+	height: 240px;
+	margin:5px 0;
+	background-color: #e6e6e6;
+	box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.5);
+}
+
+#block3{
+	width: 32.5%;
+	height:240px;
+	background-color: #e6e6e6;
+	margin:5px 0;
+	margin-right:10%;
+	float: right;
+	box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.5);
+}
+#block-tem{
+	width: 96%;
+	height:100%;
+	padding-left:2%;
+	padding-right:2%;
+	display: block;
+	background:none ;
+}
+#time{
+	display:block;
+    position:relative;
+    left:0;
+    bottom:0;
+    width:100%;
+    box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+    margin-top: -40px;
+    color:#fff;
+         
+    padding:10px;
+    background-color:rgba(77, 77, 77,.8);
+}
+#time h6 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:18px;
+    padding-top: 10px;
+}
+#clock{
+	display: block;
+	width: 30px;
+	height: 30px; 
+	margin-top: -10px;
+	float:left;
+}
+
+#tem-img{
+	display:block;
+	width:100%;
+	height:70%;
+	
+}
+#tem-img img{
+	display: block;
+	position:relative;
+	width: 100%;
+	height: 100%;
+}
+
+#tem-pred{
+	width:97%;
+	height:30%;
+	display: inline-block;
+	background-color: none;
+	padding-left: 3%;
+	font-family: PT Sans Caption,Verdana,Dejavu,Sans;
+}
+#tem-pred p{
+
+}
+
+#footer{
+	width: 80%;
+	height:40px;
+	margin: 0px auto;
+	display: block;
+	background:linear-gradient(0deg, #4d94ff, #0066ff);
+	box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.5);
+}
+#footer-text1 strong{
+	margin: 5px;
+	font-family: Verdana ;
+	font-size: 12px;
+	color:white;
+}
+
+#callback{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    background: #7883A2;
+    border-radius: 5%;
+    position: fixed;
+    bottom: 5%;
+    right: 1%;
+    padding: 10px 8px;
+    width: 124px;
+    margin: 0 auto;
+    cursor: pointer;	
+	margin-bottom: 20px;
+}
+
+#callback_form{
+	width: 200px;
+    height: 200px;
+    background: #ccc;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 30px;
+    display: none;
+}
+
+#callback_form p{
+    cursor: pointer;
+    border: 1px solid #fff;
+    text-align: center;
+    color: #fff;
+    background: #7883A2;	
+}
